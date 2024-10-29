@@ -7197,11 +7197,6 @@ marked-gfm-heading-id@^3.1.0:
   dependencies:
     github-slugger "^2.0.0"
 
-marked-highlight@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/marked-highlight/-/marked-highlight-2.2.0.tgz#94d04da1a03abc36afbe4021294de0e4d4907636"
-  integrity sha512-36LzwtVf7HEbbMITKU4j+iZuyWKgdXJfgYr4F5j27vs79oRPyApuBF3WkS5OsqO1+1lypWxztad7zNRM4qgXFw==
-
 marked-mangle@^1.1.7:
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/marked-mangle/-/marked-mangle-1.1.9.tgz#ee7a4a1e318a47c722c905e6472f346c6f7a08a6"
@@ -8736,11 +8731,6 @@ pretty-format@^29.7.0:
     "@jest/schemas" "^29.6.3"
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
-
-prismjs@^1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.29.0.tgz#f113555a8fa9b57c35e637bba27509dcf802dd12"
-  integrity sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==
 
 proc-log@^3.0.0:
   version "3.0.0"
