@@ -1,0 +1,13 @@
+<script lang="ts">
+  onInit(() => {
+    console.log('I am mounting');
+  });
+
+  onDestroy(() => {
+    console.log('I am unmounting');
+  });
+</script>
+
+<template>
+  <h1>Hello component</h1>
+</template>
