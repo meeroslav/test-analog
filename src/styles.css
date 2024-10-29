@@ -1,7 +1,9 @@
+@import 'prismjs/plugins/diff-highlight/prism-diff-highlight.css';
 /* Tailwind directives  */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 /* You can add global styles to this file, and also import other style files */
 :root {
@@ -86,4 +88,17 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+analog-markdown {
+  text-align: left;
+}
+
+analog-markdown > * {
+  padding: 1rem 0;
+}
+
+pre.shiki {
+  margin: 1rem 0;
+  padding: 0.5rem;
 }

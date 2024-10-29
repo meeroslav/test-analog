@@ -1,0 +1,46 @@
+---
+title: Mounting test
+slug: mounting-test
+description: Analog test to see if mounting/unmounting works correctly
+coverImage: https://images.unsplash.com/photo-1517273006195-51fa3364bce2?q=80&w=3946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+---
+
+<script lang="ts">
+  // src/content/post.agx
+  const name = 'Analog';
+
+  onInit(() => {
+    console.log('I am mounting');
+  });
+
+  onDestroy(() => {
+    console.log('I am unmounting');
+  });
+</script>
+
+<template lang="md">
+# Multiple mounting in {{name}}
+
+Open inspect tools to see multiple lifecycle hooks `happening`.
+Upon opening the page it will print:
+
+```
+- I am mounting
+- I am unmounting
+- I am mounting
+```
+The first two should obviously not happen. Component should only mount once and unmount when we navigate away
+</template>
+
+<style>
+  a {
+    text-align: left;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .post__title,
+  .post__desc {
+    margin: 0;
+  }
+</style>
