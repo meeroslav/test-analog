@@ -1,6 +1,6 @@
 ---
-title: Mounting test
-slug: mounting-test
+title: Mounting test second page
+slug: mounting-test-second
 description: Analog test to see if mounting/unmounting works correctly
 coverImage: https://images.unsplash.com/photo-1517273006195-51fa3364bce2?q=80&w=3946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
@@ -11,11 +11,11 @@ coverImage: https://images.unsplash.com/photo-1517273006195-51fa3364bce2?q=80&w=
   console.log('__LOADING___________________________');
 
   onInit(() => {
-    console.log('I am mounting (mounting-test)');
+    console.log('I am mounting (mounting-test-second)');
   });
 
   onDestroy(() => {
-    console.log('I am unmounting (mounting-test)');
+    console.log('I am unmounting (mounting-test-second)');
   });
 </script>
 
